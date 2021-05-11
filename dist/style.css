@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(45deg, black, grey);
+}
+h1{
+  padding:10px;
+  background:black;
+  color: grey;
+  margin-bottom:0;
+  font-family: 'Special Elite', monospace, arial;
+}
+body {
+  font-family: monospace;
+  color: grey;
+  text-align: center;
+}
+
+#main {
+  position: relative;
+  min-height: 100vh;
+}
+#hr{
+  color:orange;
+  background-color: orange;
+  position:relative;
+  top:19px;
+  left:49.5%;
+  width:1%;
+  opacity:0.9;
+  border:1px solid orange;
+}
+#leg{
+  font-size: 16px;
+  color:orange;
+  opacity: 0.7;
+  position:relative;
+  top:20px;
+  background:transparent;
+  font-family: 'Special Elite', monospace, arial;
+}
+#content1 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-bottom:0px;
+  margin-top;0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: white;
+  box-shadow: 5px 5px 15px 10px black ;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: 5px 5px 15px 10px black ;  
+}
+
+#image {
+  max-width:100%;
+  align-self: center;
+  box-shadow: 10px 5px 5px 20px grey;
+}
+#full-card{
+  padding: 20px 30px 30px 20px;
+  box-shadow: 10px 5px 5px 10px grey;  
+  color: white;
+  font-family: 'Special Elite', monospace, arial;
+}
+#img-caption{
+  padding-top:3px;
+  color: orange;
+  background: #171717;
+  font-family: 'Special Elite', monospace, arial;
+}
+
+#tribute-info{
+  color: white;
+  font-size: 20px;
+}
+#image2-div{
+  padding: 20px 30px 30px 20px;
+  box-shadow: 1px 0px 0px 0px grey;  
+  color: white;
+}
+#image2{
+  width:30%;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+h3{
+  margin-bottom: 20px;
+  padding:10px;
+  background: black;
+  color: grey;
+  font-size: 33px;
+  font-weight:600;
+  font-family: 'Special Elite', monospace, arial;
+}
+
+#hr2{
+  color:orange;
+  background-color: orange;
+  position:relative;
+  left:49.5%;
+  width:1%;
+  opacity:0.9;
+  border:1px solid orange;
+}
+#hr2-arrival{
+  color:orange;
+  background-color: orange;
+  position:relative;
+  top:2px;
+  left:49.5%;
+  width:1%;
+  opacity:0.9;
+  border:2px solid orange;
+}
+#hr2-Top10p{
+  color:orange;
+  background-color: orange;
+  position:relative;
+  top:10px;
+  left:49.5%;
+  width:1%;
+  opacity:0.9;
+  border:1px solid orange;
+}
+#hr2-variant{
+  color:orange;
+  background-color: orange;
+  position:relative;
+  bottom:21px;
+  left:49.5%;
+  width:1%;
+  opacity:0.9;
+  border:1px solid orange;
+}
+#h2-1-variant{
+  color:orange;
+  background-color: orange;
+  position:relative;
+  left:47%;
+  width:6%;
+  opacity:0.9;
+  border:1px solid orange; 
+}
+#tribute-p{ 
+  padding:8px;
+  background:black;
+  color: orange;
+  font-family: 'Special Elite', monospace, arial;
+}
+#tribute-link:hover{
+  font-size: 18px;
+}
+#links{
+  padding:30px;
+  padding-bottom:35px;
+  background:black;
+  color: orange;
+  font-family: 'Special Elite', monospace, arial;
+  text-decoration:none;
+}
+a{
+  color:orange;
+  background: black;
+  text-decoration:none;
+}
+#i{
+  font-size:20px;
+  color:orange;
+  background:transparent;
+}
+#i:hover{
+  font-size:18px;
+}
+#i-image{
+  width:19px;
+  background:orange;
+  color:orange;
+}
+#i-image:hover{
+  width:17px;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2.5rem;
+  background: black;
+  color:orange;
+}
